@@ -8,7 +8,7 @@ All supported languages ar provided in lang.json file .
 
 With this you can translate upto 15000 Characters per day from any language to any language.Bingo !
 
-Head over the path for the installation: - ../dist/Release/Windows/
+Head over the path for the installation: - ../dist/Release/Windows/, From there download 'TransLang Version 1.0.exe' installer
 
 
 Steps to use:
