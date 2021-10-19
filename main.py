@@ -31,21 +31,6 @@ ent1.place(x=480,y=310,height=25)
 
 file = None
 
-'''def trans():
-    t = translate.Translator(from_lang=tv.get(),to_lang=tv1.get())
-    t1 = t.translate(text=txt.get('1.0','end-1c'))
-    txt1['state'] = 'normal'
-    txt1.delete(1.0,tk.END)
-    txt1.insert(1.0,t1)
-    txt1['state'] = 'disabled'
-    print(t1)
-    length = len(txt.get('1.0','end-1c'))
-    if length > 500:
-        txt1['state'] = 'normal'
-        txt1.delete(1.0,tk.END)
-        txt1.insert(1.0,'CHARACTER LENGTH EXCEEDED.MAX ALLOWED CHARS : 500 CHARS')
-'''
-
 def trans():
     import googletrans
 
